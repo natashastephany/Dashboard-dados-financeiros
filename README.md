@@ -31,21 +31,29 @@ Os dados foram extraídos de um conjunto de dados oferecido pelo próprio Power 
 | Month name | Nome do mês da venda | 
 | Year | Ano da venda |
 
-## 📝 Elaboração do projeto
+## 📝 Sobre o projeto
 
 Este projeto foi inteiramente realizado utilizando-se Microsoft Power BI. O dashboard encontra-se disponível neste repositório com o título "Dashboard_financials".
 
-O dashboard conta com duas páginas, a primeira referente ao relatório de vendas, e a segunda ao relatório de lucro. É possível navegar pelas páginas através do botão no rodapé esquerdo. Ambos os relatórios contam com filtro de data.
+O dashboard conta com duas páginas, a primeira referente ao relatório de vendas, e a segunda ao relatório de lucro. É possível navegar pelas páginas através do botão no rodapé esquerdo (para utilizar botões no relatório é necessário apertar a tecla "control" + botão.). Ambos os relatórios contam com filtro de data. 
 
 * Relatório de vendas
 
-O relatório de vendas conta com cards com os alguns "big numbers", e vários gráficos. É possível realizar consultas e depois utilizar a borracha no canto superior direito para voltar ao estado original do relatório. Há dois gráficos neste relatório com dois tipos de visualizações: o gráfico de vendas por segmento, e o de vendas por país. O primeiro possui visualização em gráfico em barras e do tipo "donut". Já o de vendas por país possui visualização em forma de mapa e do tipo "tree map". Existem dois botões em cima de cada gráfico que possibilitam alternar entre as visualizações.
+O relatório de vendas conta com cards com os alguns "big numbers", e vários gráficos. É possível realizar consultas à este relatório e depois utilizar a borracha no canto superior direito para voltar ao estado original do relatório. 
+Há dois gráficos neste relatório que possuem dois tipos de visualizações: o gráfico de vendas por segmento, e o de vendas por país. O primeiro possui visualização em gráfico em barras e do tipo "donut". Já o de vendas por país possui visualização em forma de mapa e do tipo "treemap". Existem dois botões em cima de cada gráfico que possibilitam alternar entre as visualizações.
+Além disto, este relatório apresenta o gráfico da distribuição de vendas ao longo do tempo por mês, onde se observa um pico no mês de outubro.
 
 * Relatório de lucro
 
-Para utilizar os botões é necessário apertar a tecla "control" + botão.
+Este relatório conta com três tipos de gráfico: árvore hierárquica, treemap e gráfico em cascata. No gráfico de árvore hierárquica observa-se a distribuição do lucro por ano, e depois por país. Nos outros gráficos observa-se a divisão do lucro por segmento e por trimestre. respectivamente.
 
-## 📈 Conclusão
 
-As seguintes conclusões foram extraídas dos relatórios:
+## 📈 Resultados
+
+De acordo com os relatórios produzidos, foi possível chegar às seguintes conclusões:
+
+* O valor total de vendas realizadas foi no valor de 118,73 milhões de dólares e 1,13 milhão de unidades foram vendidas, gerando um lucro de 16,89 milhões de dólares. Ao se observar o perfil das vendas, nota-se um destaque para o mês de outubro, que obteve um valor superior ha 21 milhões em vendas. Em contrapartida, o mês de março obteve o pior resultado, com 5,6 milhões em vendas.
+* Em relação ao segmento, a maior fatia de vendas foi a do governo, que representou 44,22% do total de vendas. O mesmo se observou para o lucro, em que o governo se sobressaiu em relação aos outros segmentos, com um valor de 11,39 milhões de dólares.
+* Os maiores países consumidores foram Estados Unidos, Canadá, França e Alemanha, respectivamente.
+* O trimestre que apresentou mais lucro foi o quatro trimestre, totalizando 7,5 mihões de dólares.
 
