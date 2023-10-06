@@ -14,17 +14,17 @@ Os dados foram extraídos de um conjunto de dados oferecido pelo próprio Power 
 
 | Variável | Significado |
 |----------|-------------|
-| Segment | Segmento |
+| Segment | Segmento (governo, parceiros de canal, empresa, médio porte, pequenos negócios) |
 | Country | País |
 | Product | Produto |
 | Discount Band | Faixa de desconto (nenhuma, baixa, média ou alta) |
 | Units Sold | Unidades vendidas (quantidade) |
 | Manufacturing Price | Preço de manufatura do produto |
 | Sale Price | Preço de venda do produto |
-| Gross Sales | XX |
+| Gross Sales | Vendas brutas (quantidade) |
 | Discounts | Valor do desconto fornecido no produto |
 | Sales | Valor das vendas |
-| COGS (Cost of Goods Sold) | Custo do produto vendido |
+| COGS (Cost of Goods Sold) | Custo dos produtos vendidos |
 | Profit | Valor do lucro ou prejuízo |
 | Date | Data da venda |
 | Month number | Número do mês da venda |
@@ -34,7 +34,16 @@ Os dados foram extraídos de um conjunto de dados oferecido pelo próprio Power 
 ## 📝 Elaboração do projeto
 
 Este projeto foi inteiramente realizado utilizando-se Microsoft Power BI. O dashboard encontra-se disponível neste repositório com o título "Dashboard_financials".
-O dashboard conta com duas páginas, a primeira referente ao relatório de vendas, e a segunda ao relatório de lucro.
+
+O dashboard conta com duas páginas, a primeira referente ao relatório de vendas, e a segunda ao relatório de lucro. É possível navegar pelas páginas através do botão no rodapé esquerdo. Ambos os relatórios contam com filtro de data.
+
+* Relatório de vendas
+
+O relatório de vendas conta com cards com os alguns "big numbers", e vários gráficos. É possível realizar consultas e depois utilizar a borracha no canto superior direito para voltar ao estado original do relatório. Há dois gráficos neste relatório com dois tipos de visualizações: o gráfico de vendas por segmento, e o de vendas por país. O primeiro possui visualização em gráfico em barras e do tipo "donut". Já o de vendas por país possui visualização em forma de mapa e do tipo "tree map". Existem dois botões em cima de cada gráfico que possibilitam alternar entre as visualizações.
+
+* Relatório de lucro
+
+Para utilizar os botões é necessário apertar a tecla "control" + botão.
 
 ## 📈 Conclusão
 
