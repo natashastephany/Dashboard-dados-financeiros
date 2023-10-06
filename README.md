@@ -19,13 +19,17 @@ Os dados foram extraídos de um conjunto de dados oferecido pelo próprio Power 
 | Product | Produto |
 | Discount Band | Faixa de desconto (nenhuma, baixa, média ou alta) |
 | Units Sold | Unidades vendidas (quantidade) |
-| Manufacturing Price |  |
+| Manufacturing Price | Preço de manufatura do produto |
 | Sale Price | Preço de venda do produto |
-| Gross Sales |  |
+| Gross Sales | XX |
 | Discounts | Valor do desconto fornecido no produto |
-| Date_of_Surgery | Data da cirurgia |
-| Date_of_Last_Visit | Data da última visita ao paciente |
-| Patient_Status | Status do paciente (vivo ou morto) |
+| Sales | Valor das vendas |
+| COGS (Cost of Goods Sold) | Custo do produto vendido |
+| Profit | Valor do lucro ou prejuízo |
+| Date | Data da venda |
+| Month number | Número do mês da venda |
+| Month name | Nome do mês da venda | 
+| Year | Ano da venda |
 
 ## 📝 Elaboração do projeto
 
