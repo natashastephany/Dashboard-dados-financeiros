@@ -1,4 +1,5 @@
 # Dashboard de dados financeiros 💵
+![Imagem de dados financeiros do unsplash](https://unsplash.com/pt-br/fotografias/qwtCeJ5cLYs)
 
 Este repositório se trata de um dashboard de dados financeiros desenvolvido no Power BI, durante a realização do bootcamp "Ciência de dados com Python" do Santander, oferecido pela DIO.
 
@@ -37,13 +38,13 @@ Este projeto foi inteiramente realizado utilizando-se Microsoft Power BI. O dash
 
 O dashboard conta com duas páginas, a primeira referente ao relatório de vendas, e a segunda ao relatório de lucro. É possível navegar pelas páginas através do botão no rodapé esquerdo (para utilizar botões no relatório é necessário apertar a tecla "control" + botão.). Ambos os relatórios contam com filtro de data. 
 
-* Relatório de vendas
+* **Relatório de vendas**
 
 O relatório de vendas conta com cards com os alguns "big numbers", e vários gráficos. É possível realizar consultas à este relatório e depois utilizar a borracha no canto superior direito para voltar ao estado original do relatório. 
 Há dois gráficos neste relatório que possuem dois tipos de visualizações: o gráfico de vendas por segmento, e o de vendas por país. O primeiro possui visualização em gráfico em barras e do tipo "donut". Já o de vendas por país possui visualização em forma de mapa e do tipo "treemap". Existem dois botões em cima de cada gráfico que possibilitam alternar entre as visualizações.
 Além disto, este relatório apresenta o gráfico da distribuição de vendas ao longo do tempo por mês, onde se observa um pico no mês de outubro.
 
-* Relatório de lucro
+* **Relatório de lucro**
 
 Este relatório conta com três tipos de gráfico: árvore hierárquica, treemap e gráfico em cascata. No gráfico de árvore hierárquica observa-se a distribuição do lucro por ano, e depois por país. Nos outros gráficos observa-se a divisão do lucro por segmento e por trimestre. respectivamente.
 
