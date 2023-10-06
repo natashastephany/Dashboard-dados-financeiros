@@ -1,4 +1,4 @@
-# Dashboard-dados-financeiros 💵
+# Dashboard de dados financeiros 💵
 
 Este repositório se trata de um dashboard de dados financeiros desenvolvido no Power BI, durante a realização do bootcamp "Ciência de dados com Python" do Santander, oferecido pela DIO.
 
@@ -14,15 +14,15 @@ Os dados foram extraídos de um conjunto de dados oferecido pelo próprio Power 
 
 | Variável | Significado |
 |----------|-------------|
-| Age | Idade do paciente|
-| Gender | Gênero do paciente |
-| Protein1, Protein2, Protein3, Protein4 | Níveis de expressão de 4 tipos de proteína diferentes |
-| Tumour_Stage | Estágio do tumor (1, 2 ou 3)|
-| Histology | Histologia (Carcinoma Ductal Invasivo, Carcinoma Lobular Invasivo, Carcinoma Mucinoso) |
-| ER status | Status de receptores de estrogênio (ER) positivo ou negativo |
-| PR status | Status de receptores de progesterona (PR) - positivo ou negativo |
-| HER2 status | Status da proteína HER2 (positivo ou negativo) |
-| Surgery_type | Tipo de cirurgia (Lumpectomia, Mastectomia Radical Modificada, Mastectomia Simples, Outros) |
+| Segment | Segmento |
+| Country | País |
+| Product | Produto |
+| Discount Band | Faixa de desconto (nenhuma, baixa, média ou alta) |
+| Units Sold | Unidades vendidas (quantidade) |
+| Manufacturing Price |  |
+| Sale Price | Preço de venda do produto |
+| Gross Sales |  |
+| Discounts | Valor do desconto fornecido no produto |
 | Date_of_Surgery | Data da cirurgia |
 | Date_of_Last_Visit | Data da última visita ao paciente |
 | Patient_Status | Status do paciente (vivo ou morto) |
